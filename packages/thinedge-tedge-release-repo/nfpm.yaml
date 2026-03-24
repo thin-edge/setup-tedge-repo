@@ -1,0 +1,22 @@
+name: "thinedge-tedge-release-repo"
+arch: "all"
+platform: "linux"
+version: "${SEMVER}"
+release: "1"
+section: "utils"
+priority: "optional"
+maintainer: "thin-edge.io <info@thin-edge.io>"
+description: |
+  thin-edge.io release repository configuration.
+  Adds the thinedge/tedge-release Cloudsmith repository to apt sources.
+vendor: "thin-edge.io"
+homepage: "https://github.com/thin-edge/thin-edge.io"
+license: "Apache-2.0"
+
+contents:
+  - src: files/etc/apt/sources.list.d/thinedge-tedge-release.list
+    dst: /etc/apt/sources.list.d/thinedge-tedge-release.list
+    type: config|noreplace
+
+  - src: files/usr/share/keyrings/thinedge-tedge-release-archive-keyring.gpg
+    dst: /usr/share/keyrings/thinedge-tedge-release-archive-keyring.gpg
