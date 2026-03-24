@@ -26,8 +26,6 @@ jobs:
 
       - name: Install nfpm
         run: go install github.com/goreleaser/nfpm/v2/cmd/nfpm@latest
-        env:
-          GOPATH: /home/runner/go
 
       - uses: taiki-e/install-action@just
 
