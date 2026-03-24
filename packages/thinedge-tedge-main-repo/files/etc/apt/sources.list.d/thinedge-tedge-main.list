@@ -3,6 +3,6 @@
 # Repository: thinedge / tedge-main
 # Description: A certifiably-awesome open-source package repository curated by thinedge, hosted by Cloudsmith.
 
-deb [signed-by=/usr/share/keyrings/thinedge-tedge-main-archive-keyring.gpg] https://dl.cloudsmith.io/public/thinedge/tedge-main/deb/any-distro any-version main
+deb [signed-by=/usr/share/keyrings/thinedge-tedge-main-archive-keyring.gpg] https://dl.cloudsmith.io/public/thinedge/tedge-main/deb/debian any-version main
 
-deb-src [signed-by=/usr/share/keyrings/thinedge-tedge-main-archive-keyring.gpg] https://dl.cloudsmith.io/public/thinedge/tedge-main/deb/any-distro any-version main
+deb-src [signed-by=/usr/share/keyrings/thinedge-tedge-main-archive-keyring.gpg] https://dl.cloudsmith.io/public/thinedge/tedge-main/deb/debian any-version main

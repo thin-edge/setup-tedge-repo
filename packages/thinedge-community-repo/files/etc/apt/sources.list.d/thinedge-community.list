@@ -3,6 +3,6 @@
 # Repository: thinedge / community
 # Description: thin-edge.io community plugins. These are provided on an as-is basis.
 
-deb [signed-by=/usr/share/keyrings/thinedge-community-archive-keyring.gpg] https://dl.cloudsmith.io/public/thinedge/community/deb/any-distro any-version main
+deb [signed-by=/usr/share/keyrings/thinedge-community-archive-keyring.gpg] https://dl.cloudsmith.io/public/thinedge/community/deb/debian any-version main
 
-deb-src [signed-by=/usr/share/keyrings/thinedge-community-archive-keyring.gpg] https://dl.cloudsmith.io/public/thinedge/community/deb/any-distro any-version main
+deb-src [signed-by=/usr/share/keyrings/thinedge-community-archive-keyring.gpg] https://dl.cloudsmith.io/public/thinedge/community/deb/debian any-version main
